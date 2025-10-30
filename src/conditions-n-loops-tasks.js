@@ -197,7 +197,7 @@ function convertNumberToString(/* numberStr */) {
  */
 function isPalindrome(str) {
   let length = 0;
-  while (true) {
+  while (str) {
     if (str[length] === undefined) break;
     length += 1;
   }
